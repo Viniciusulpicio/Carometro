@@ -1,0 +1,34 @@
+  /* Alinha as informações e define o fundo */
+  .header{
+    background-color: #AD3333;
+    max-height: 27vh;
+    height: 27vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+  }
+
+  .img_header{
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-direction: column;
+  }
+
+  .logoHome{
+    height: 20vh;
+  }
+
+  .tituloHome{
+    font-family: 'minhafonte', sans-serif;
+    font-size: 7vw;
+    color:white;
+    letter-spacing: 10px;
+
+    width: 87vw;
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  

@@ -1,0 +1,16 @@
+.geralHome{
+    display: flex;
+}
+
+@font-face {
+    font-family: 'minhafonte';
+    src: url('../../grand-theft-auto/pricedow.ttf') format('opentype');
+}
+
+
+
+
+.tituloHome{
+    width: 87vw;
+    display: flex;
+}
