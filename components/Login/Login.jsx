@@ -53,11 +53,11 @@ const Login = () => {
           </div>
 
           {/* Botão que faz login */}
-          <Link to={"/carometro/home"} className="button"> Entrar </Link>
+          <Link to={"/Carometro-universal/home"} className="button"> Entrar </Link>
 
           {/* Botão para ir para tela de cadastro */}
           <p>
-            Não tem uma conta ? <Link to={"/carometro/cadastro"}>Inscrever-se</Link>
+            Não tem uma conta ? <Link to={"/Carometro-universal/cadastro"}>Inscrever-se</Link>
           </p>
         </div>
       </div>

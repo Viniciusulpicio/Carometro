@@ -27,15 +27,15 @@ function Turmas() {
 
           {/* Salas da turma */}
           <div className="salas">
-            <Link to={"/carometro/alunos"} className="styleHref">
+            <Link to={"/Carometro-universal/alunos"} className="styleHref">
               IDEV - 1
             </Link>
 
-            <Link to={"/carometro/alunos"} className="styleHref">
+            <Link to={"/Carometro-universal/alunos"} className="styleHref">
               IDEV - 2
             </Link>
 
-            <Link to={"/carometro/alunos"} className="styleHref">
+            <Link to={"/Carometro-universal/alunos"} className="styleHref">
               IDEV - 3
             </Link>
 
@@ -49,13 +49,13 @@ function Turmas() {
 
           {/* Salas da turma */}
           <div className="salasMec">
-            <Link to={"/carometro/alunos"} className="styleHref">
+            <Link to={"/Carometro-universal/alunos"} className="styleHref">
               IMEC - 1
             </Link>
-            <Link to={"/carometro/alunos"} className="styleHref">
+            <Link to={"/Carometro-universal/alunos"} className="styleHref">
               IMEC - 2
             </Link>
-            <Link to={"/carometro/alunos"} className="styleHref">
+            <Link to={"/Carometro-universal/alunos"} className="styleHref">
               IMEC - 1
             </Link>
           </div>
@@ -68,13 +68,13 @@ function Turmas() {
 
           {/* Salas da turma */}
           <div className="salas">
-          <Link to={"/carometro/alunos"} className="styleHref">
+          <Link to={"/Carometro-universal/alunos"} className="styleHref">
               ILEC - 1
             </Link>
-            <Link to={"/carometro/alunos"} className="styleHref">
+            <Link to={"/Carometro-universal/alunos"} className="styleHref">
               ILEC - 1
             </Link>
-            <Link to={"/carometro/alunos"} className="styleHref">
+            <Link to={"/Carometro-universal/alunos"} className="styleHref">
               ILEC - 1
             </Link>
           </div>

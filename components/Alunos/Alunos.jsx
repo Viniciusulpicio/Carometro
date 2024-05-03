@@ -40,7 +40,7 @@ const Alunos = () => {
         <div className="listaAlunos">
           {alunos.map((aluno) => (
             <div key={aluno.login.uuid} className="aluno">
-              <Link to={`/carometro/aluno/${extractIdFromImageUrl(aluno.picture.large)}`}>
+              <Link to={`/Carometro-universal/aluno/${extractIdFromImageUrl(aluno.picture.large)}`}>
                 <img src={aluno.picture.large} alt="Student" />
                 <p className='alunoNome'>{`${aluno.name.first} ${aluno.name.last}`}</p>
               </Link>

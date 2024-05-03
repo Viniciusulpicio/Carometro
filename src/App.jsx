@@ -11,6 +11,7 @@ import DetalhesAluno from "../components/DetalhesAlunos/DetalhesAlunos.jsx";
 import Navbar from "../components/NavBar/Navbar.jsx";
 import ContinuarCadastro from "../components/ContinuarCadastro/ContinuarCadastro.jsx";
 import Turmas from "../components/Turmas/Turmas.jsx"
+
 //Fim das importações das páginas
 
 function App() {
@@ -20,12 +21,12 @@ function App() {
       {/* cria as rotas e seus caminhos */}
         <Routes>
           {/* Define as rotas e seus caminhos */}
-          <Route path="/carometro/" element={<Login />} exact  />
-          <Route path="/carometro/home" element={<Home />} />
-          <Route path="/carometro/turmas" element={<Turmas />} />
-          <Route path="/carometro/cadastro" element={<Cadastro />} />
-          <Route path="/carometro/alunos" element={<Alunos />} />
-          <Route path="/carometro/continuarCadastro" element={<ContinuarCadastro />} />
+          <Route path="/Carometro-universal/" element={<Login />} exact  />
+          <Route path="/Carometro-universal/home" element={<Home />} />
+          <Route path="/Carometro-universal/turmas" element={<Turmas />} />
+          <Route path="/Carometro-universal/cadastro" element={<Cadastro />} />
+          <Route path="/Carometro-universal/alunos" element={<Alunos />} />
+          <Route path="/Carometro-universal/continuarCadastro" element={<ContinuarCadastro />} />
           
 
           {/* Rotas e caminhos para as páginas de cada aluno e dos alunos da sala */}

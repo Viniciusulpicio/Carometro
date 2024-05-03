@@ -9,9 +9,10 @@ const Header = ({texto}) => {
     // Div com todas as informações do header
         <div className="header">
           {/* Foto da logo */}
-        <Link to={"/carometro/home"} className='img_header'>
+        <Link to={"/Carometro-universal/home"} className='img_header'>
         <img src={senaiLogo} alt="Senai" className='logoHome' />
-        <p className='tituloHome'>{texto} </p>
+        <p className='legendaHeader'>SENAI Shunji Nishimura</p>
+
         </Link>
 
         </div>

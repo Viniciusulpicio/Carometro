@@ -19,16 +19,7 @@
     height: 20vh;
   }
 
-  .tituloHome{
-    font-family: 'minhafonte', sans-serif;
-    font-size: 7vw;
-    color:white;
-    letter-spacing: 10px;
-
-    width: 87vw;
-    display: flex;
-    justify-content: center;
-    
-  }
-
-  
+.legendaHeader{
+  color: white;
+  font-size: 3vh;
+}

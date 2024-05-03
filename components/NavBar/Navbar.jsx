@@ -13,12 +13,12 @@ const Navbar = () => {
       <div className="sidebar">
         <ul>
           {/* Botão para retornar à home */}
-          <li><Link to="/carometro/home"> <button><img src={Home} alt="Home" /> Página Inicial</button> </Link></li>
+          <li><Link to="/Carometro-universal/home"> <button><img src={Home} alt="Home" /> Página Inicial</button> </Link></li>
         </ul>
 
         <ul>
           {/* Botão para retornar à home */}
-          <li><Link to="/carometro/turmas"> <button><img src={Salas} alt="sem imagem" /> Turmas</button> </Link></li>
+          <li><Link to="/Carometro-universal/turmas"> <button><img src={Salas} alt="sem imagem" /> Turmas</button> </Link></li>
         </ul>
 
       </div>

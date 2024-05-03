@@ -25,8 +25,8 @@ const Cadastro = () => {
           <label className="titulosCaixas" htmlFor="confirmarSenha">Confirme senha:</label>
           <input className="caixas" type="text" name="confirmaSenha" id="confirmaSenha" />
 
-          <Link to={"/carometro/ContinuarCadastro"} className='button'>Continuar Cadastro</Link>
-          <Link to={"/carometro"}>Já tem uma conta?</Link>
+          <Link to={"/Carometro-universal/ContinuarCadastro"} className='button'>Continuar Cadastro</Link>
+          <Link to={"/Carometro-universal"}>Já tem uma conta?</Link>
 
         </div>
       </div>

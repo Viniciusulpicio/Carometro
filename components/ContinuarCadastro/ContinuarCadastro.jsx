@@ -27,8 +27,8 @@ const ContinuarCadastro = () => {
     <label className="titulosCaixas" htmlFor="confirmarSenha">CPF:</label>
     <input className="caixas" type="number" name="confirmaSenha" id="confirmaSenha" required />
 
-    <Link className='button' to={'/carometro/home'}>Cadastrar</Link>
-    <Link to={"/carometro"}>Já tem uma conta?</Link>
+    <Link className='button' to={'/Carometro-universal/home'}>Cadastrar</Link>
+    <Link to={"/Carometro-universal"}>Já tem uma conta?</Link>
 
   </div>
 </div>
