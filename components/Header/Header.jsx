@@ -11,7 +11,7 @@ const Header = ({texto}) => {
           {/* Foto da logo */}
         <Link to={"/Carometro-universal/home"} className='img_header'>
         <img src={senaiLogo} alt="Senai" className='logoHome' />
-        <p className='legendaHeader'>SENAI Shunji Nishimura</p>
+        <p className='legendaHeader'>SENAI "Shunji Nishimura"</p>
 
         </Link>
 
