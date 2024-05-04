@@ -3,8 +3,8 @@ import Navbar from '../NavBar/Navbar';
 import Header from '../Header/Header';
 import "./Home.css";
 
-import Mancha from "../img/fundo_senai.png";
-import Senai from "../img/senai.jpg";
+import Mancha from "../../img/fundo_senai.png";
+import Senai from "../../img/senai.jpg";
 
 const Home = () => {
   return (

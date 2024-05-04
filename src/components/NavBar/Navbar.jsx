@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
 
-import Home from "../img/home.png";
-import Salas from "../img/Salas.png"
+import Home from "../../img/home.png";
+import Salas from "../../img/Salas.png"
 
 const Navbar = () => {
   return (

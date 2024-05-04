@@ -1,16 +1,14 @@
 //Insere as rotas no projeto
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { useState } from "react";
 import "./App.css";
 // Início da importação as paginas feitas
-import Login from "../components/Login/Login.jsx";
-import Cadastro from "../components/Cadastro/Cadastro.jsx";
-import Home from "../components/Home/Home.jsx";
-import Alunos from "../components/Alunos/Alunos.jsx";
-import DetalhesAluno from "../components/DetalhesAlunos/DetalhesAlunos.jsx";
-import Navbar from "../components/NavBar/Navbar.jsx";
-import ContinuarCadastro from "../components/ContinuarCadastro/ContinuarCadastro.jsx";
-import Turmas from "../components/Turmas/Turmas.jsx"
+import Login from "./components/Login/Login.jsx";
+import Cadastro from "./components/Cadastro/Cadastro.jsx";
+import Home from "./components/Home/Home.jsx";
+import Alunos from "./components/Alunos/Alunos.jsx";
+import DetalhesAluno from "./components/DetalhesAlunos/DetalhesAlunos.jsx";
+import ContinuarCadastro from "./components/ContinuarCadastro/ContinuarCadastro.jsx";
+import Turmas from "./components/Turmas/Turmas.jsx"
 
 //Fim das importações das páginas
 
@@ -30,7 +28,7 @@ function App() {
           
 
           {/* Rotas e caminhos para as páginas de cada aluno e dos alunos da sala */}
-          <Route path="/carometro/aluno/:id" element={<DetalhesAluno />} />
+          <Route path="/Carometro-universal/aluno/:id" element={<DetalhesAluno />} />
           <Route path="*" element={<Alunos />} />
         </Routes>
       </BrowserRouter>  

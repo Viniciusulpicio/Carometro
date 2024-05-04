@@ -5,9 +5,11 @@ import { Link } from "react-router-dom";
 import Header from "../Header/Header";
 import Navbar from "../NavBar/Navbar";
 // Importa as páginas das salas
-import mec from "../img/imec.png";
-import dev from "../img/dev.png";
-import elec from "../img/elec.png";
+import mec from "../../img/imec.png";
+import dev from "../../img/dev.png";
+import elec from "../../img/elec.png";
+
+// Todos os links redirecionam para o component de alunos
 
 function Turmas() {
   return (

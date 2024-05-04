@@ -1,69 +1,80 @@
-import React, { useState, useEffect } from 'react';
-import axios from 'axios';
+import React from 'react';
 import { useParams } from 'react-router-dom';
 import '../DetalhesAlunos/DetalhesAlunos.css';
 import Header from '../Header/Header';
 import Navbar from '../NavBar/Navbar';
 
+// Importe a imagem do aluno
+import Aluno1 from "../../img/aluno 1.png";
+
 const DetalhesAluno = () => {
-  const { id } = useParams();
-  const [aluno, setAluno] = useState(null);
+  const { id } = useParams(); // Obter o parâmetro de rota para o ID do aluno
 
-  useEffect(() => {
-    const fetchAluno = async () => {
-      try {
-        const response = await axios.get(`https://randomuser.me/api/?seed=student-${id}&inc=name,dob,gender,email,phone,picture`);
-        setAluno(response.data.results[0]);
-      } catch (error) {
-        console.error('Erro ao buscar detalhes do aluno:', error);
-      }
-    };
+  // Variáveis fictícias para simular os detalhes do aluno
+  const aluno = {
+    foto: {
+      large: Aluno1 // Imagem do aluno
+    },
+    name: {
+      nome: 'Guilherme',
+      sobrenome: 'Devito'
+    },
+    genero: 'Minha fêmea',
+    idade: {
+      age: 12
+    },
+    email: 'devito@gmail.com',
+    telefone: '14 99637-9527'
+  };
 
-    fetchAluno();
-  }, [id]);
+  const alertOcorrencia = () => {
+    alert("Sua ocorrência foi enviada!");
+  };
+
+  const alertObservacao = () => {
+    alert("Sua ocorrência foi enviada!");
+  };
 
   return (
     <div className="detalhesAluno">
       <Header />
+      <div className='NavbarDetalhesAlunos'>
+        <Navbar/>
+        <div className="navbarAlunos">
+          <h2 className="tituloAlunos">Detalhes do Aluno</h2>
 
-      <div   className='NavbarDetalhesAlunos'>
+          {aluno ? (
+            <div className="infoAluno">
+              <div>
+                <img src={aluno.foto.large} alt="Estudante" className="fotoAluno" />
+              </div>
 
-      <Navbar/>
-      <div className="navbarAlunos">
-      <h2 className="tituloAlunos">Detalhes do Aluno</h2>
+              <div className="infoApi">
+                <label>
+                  <strong>Nome:</strong>
+                  <input className="inputAlunos" type="text" disabled value={`${aluno.name.nome} ${aluno.name.sobrenome}`} />
+                </label>
 
-        {aluno ? (
-          <div className="infoAluno">
-            <div>
-              <img src={aluno.picture.large} alt="Estudante" className="fotoAluno" />
-            </div>
+                <label>
+                  <strong className="genero">Gênero:</strong>
+                  <input className="inputAlunos" type="text" disabled value={`${aluno.genero}`} />
+                </label>
 
-            <div className="infoApi">
-              <label>
-                <strong>Nome:</strong>
-                <input className="inputAlunos" type="text" disabled value={`${aluno.name.first} ${aluno.name.last}`} />
-              </label>
+                <label>
+                  <strong>Idade:</strong>
+                  <input className="inputAlunos" type="text" disabled value={`${aluno.idade.age}`} />
+                </label>
 
-              <label>
-                <strong className="genero">Gênero:</strong>
-                <input className="inputAlunos" type="text" disabled value={`${aluno.gender}`} />
-              </label>
+                <label>
+                  <strong>Email:</strong>
+                  <input className="inputAlunos" type="text" disabled value={`${aluno.email}`} />
+                </label>
 
-              <label>
-                <strong>Idade:</strong>
-                <input className="inputAlunos" type="text" disabled value={`${aluno.dob.age}`} />
-              </label>
-
-              <label>
-                <strong>Email:</strong>
-                <input className="inputAlunos" type="text" disabled value={`${aluno.email}`} />
-              </label>
-
-              <label>
-                <strong>Telefone:</strong>
-                <input className="inputAlunos" type="text" disabled value={`${aluno.phone}`} />
-              </label>
-            </div>
+                <label>
+                  <strong>Telefone:</strong>
+                  <input className="inputAlunos" type="text" disabled value={`${aluno.telefone}`} />
+                </label>
+              </div>
             <div className="areaProfessor">
         <h4 className="tituloOcorrencia">Motivos de ocorrência</h4>
         <div className="inputOcorrencia">
@@ -122,18 +133,20 @@ const DetalhesAluno = () => {
             <input className="professor" type="text" placeholder="" />
           </div>
 
-          <button type="submit" className="buttonOcorrencia">
-            Enviar
-          </button>
+          <button className="buttonOcorrencia" onClick={alertOcorrencia}>
+        Enviar
+      </button>
         </div>
       </div>
           </div>
         ) : (
           <p>Carregando...</p>
         )}
-              <div className="anotacao">
-        <h3>Observações sobre o Aluno:</h3>
-        <input type="text" className="inputAnotacao" />
+        
+        <div className="anotacao"> {/*Eu não sei se isso vai existir na versão final */}
+          <h3>Observações sobre o Aluno:</h3>
+            <input type="text" className="inputAnotacao" />
+            <button className="buttonAnotacao" onClick={alertObservacao}> Enviar </button>
       </div>
       </div>
       </div>

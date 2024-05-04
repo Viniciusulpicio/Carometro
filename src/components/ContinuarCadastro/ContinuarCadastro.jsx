@@ -1,6 +1,6 @@
 import React from 'react'
-import chaveLogo from "../img/chave.png";
-import senaiLogo from "../img/senai.png";
+import chaveLogo from "../../img/chave.png";
+import senaiLogo from "../../img/senai.png";
 import { Link } from 'react-router-dom';
 
 const ContinuarCadastro = () => {

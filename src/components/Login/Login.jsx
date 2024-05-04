@@ -1,8 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Cadastro from "../Cadastro/Cadastro.jsx";
-import senaiLogo from "../img/senai.png";
-import chaveLogo from "../img/chave.png";
+import senaiLogo from "../../img/senai.png";
+import chaveLogo from "../../img/chave.png";
 import "../Login/Login.css";
 import "@fontsource/inter";
 
@@ -56,7 +55,7 @@ const Login = () => {
           <Link to={"/Carometro-universal/home"} className="button"> Entrar </Link>
 
           {/* Botão para ir para tela de cadastro */}
-          <p>
+          <p className="cadastro">
             Não tem uma conta ? <Link to={"/Carometro-universal/cadastro"}>Inscrever-se</Link>
           </p>
         </div>

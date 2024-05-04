@@ -8,13 +8,13 @@ html{
 
 .infoAluno {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .anotacao {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .inputAnotacao{
@@ -66,7 +66,7 @@ html{
 }
 
 .fotoAluno {
-    width: 30vh;
+    width: 27vh;
     border-radius: 20px;
 }
 
@@ -133,6 +133,23 @@ html{
     margin-bottom: 2vw;
 }
 
+.buttonAnotacao{
+    outline: none;
+    height: 40px;
+    width: 130px;
+    border-radius: 40px;
+    background: #fff;
+    border: 2px solid black; /* Substitua $green pela cor desejada */
+    color: black; /* Substitua $green pela cor desejada */
+    letter-spacing: 1px;
+    text-shadow: none; /* Não é necessário definir como 0, pode ser simplesmente 'none' */
+    font-size: 12px; /* Corrigido para definir o tamanho da fonte */
+    font-weight: bold; /* Corrigido para definir o peso da fonte */
+    cursor: pointer;
+    transition: all 0.25s ease;
+    margin-top: 1.2vw;
+}
+
 .buttonOcorrencia:hover {
     color: white;
     background: #058d05; /* Substitua $green pela cor desejada */
@@ -148,13 +165,12 @@ html{
 
 .NavbarDetalhesAlunos{
     display: flex ;
-    height: 90vh;
 }
 
 .navbarAlunos{
     display: flex;
     flex-direction: column;
-    padding-left: 3vw;
+    padding-left: 2vw;
 }
 
 .navbar{
