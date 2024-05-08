@@ -88,7 +88,7 @@
 }
 
 /* Alinha o titulo e da seu tamanho */
-.titulo{
+.titulo-turmas{
     display: flex;
     align-items: center;
     margin-bottom: 12px;

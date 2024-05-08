@@ -6,7 +6,7 @@
 .cardSenai{
     display: flex;
     background: #AD3333;
-    width: 50vw;
+    width: 40vw;
     height: 100vh;
 }
 
@@ -20,7 +20,7 @@
 .inputCadastro{
     display: flex;
     background-color: #FFE4E1;
-    width: 50vw;
+    width: 60vw;
 }
 
 .senaiLogo{
@@ -35,11 +35,6 @@
     transform: scaleX(-1);
 }
 
-.titulo{
-    display: flex;
-    font: bolder;
-}
-
 .geralCadastro{
     height: 100vh; 
     display: flex;
@@ -52,17 +47,21 @@
 
 .titulo{
     display: flex;
+    font: bolder;
+    display: flex;
     justify-content: center;
     margin-bottom: 20px;
-    font-size: xx-large;
+    font-size: 4vw !important; 
+    margin-bottom: 5vw;
+    font: bold;
 }   
 
 .caixas{
     display: flex;
     border-radius: 50px;
     border: white;
-    width: 75%;
-    height: 7%;
+    width: 80%;
+    height: 75%;
     font-size: larger;
     align-items: center;
     display: inline-block;
@@ -84,4 +83,24 @@
     margin-bottom: 1vh;font-size: x-large;
     color: white;
     justify-content: center;
+    
+}
+
+.cadastro-inputs{
+    display: flex;
+    align-items: center;
+}
+
+.quebrar-linha,
+.quebrar-linha2{
+    width: 26vw;
+    margin-left: 4vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.labelCadastro{
+    margin: 1vw;
 }

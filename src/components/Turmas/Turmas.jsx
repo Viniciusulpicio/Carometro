@@ -25,7 +25,7 @@ function Turmas() {
         {/* Turma de desenvolvimento de sistemas */}
         <div className="dev ">
           <img src={dev} alt="Senai" className="senaiLogoHome" />
-          <h2 className="titulo">Desenvolvimento Sistemas</h2>
+          <h2 className="titulo-turmas">Desenvolvimento Sistemas</h2>
 
           {/* Salas da turma */}
           <div className="salas">
@@ -47,7 +47,7 @@ function Turmas() {
         {/* Turma de mecânica */}
         <div className="mec">
           <img src={mec} alt="Senai" className="senaiLogoHome" />
-          <h2 className="titulo">Mecânica</h2>
+          <h2 className="titulo-turmas">Mecânica</h2>
 
           {/* Salas da turma */}
           <div className="salasMec">
@@ -58,7 +58,7 @@ function Turmas() {
               IMEC - 2
             </Link>
             <Link to={"/Carometro-universal/alunos"} className="styleHref">
-              IMEC - 1
+              IMEC - 3
             </Link>
           </div>
         </div>
@@ -66,18 +66,18 @@ function Turmas() {
         {/* Turma de eletro eletrônica */}
         <div className="ele">
           <img src={elec} alt="Senai" className="senaiLogoHome" />
-          <h2 className="titulo">Eletrônica</h2>
+          <h2 className="titulo-turmas">Eletrônica</h2>
 
           {/* Salas da turma */}
           <div className="salas">
           <Link to={"/Carometro-universal/alunos"} className="styleHref">
-              ILEC - 1
+              IELE - 1
             </Link>
             <Link to={"/Carometro-universal/alunos"} className="styleHref">
-              ILEC - 1
+              IELE - 2
             </Link>
             <Link to={"/Carometro-universal/alunos"} className="styleHref">
-              ILEC - 1
+              IELE - 3
             </Link>
           </div>
         </div>

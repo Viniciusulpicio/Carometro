@@ -2,7 +2,7 @@
   .header{
     background-color: #AD3333;
     max-height: 27vh;
-    height: 27vh;
+    height: 22vh;
     display: flex;
     justify-content: center;
   }
@@ -12,10 +12,11 @@
     align-items: center !important;
     justify-content: center !important;
     flex-direction: column;
+    height: 20vh;
   }
 
   .logoHome{
-    height: 20vh;
+    height: 80%;
   }
 
 .legendaHeader{

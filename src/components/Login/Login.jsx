@@ -40,15 +40,10 @@ const Login = () => {
           {/* Div para a área de lembrar senha e para o botão de esqueceu senha*/}
           <div className="checkSenha">
             {/* Div para a caixa de lembrar senha */}
-            <div className="checkbox">
-              <input type="checkbox" className="radio" />
-              <label htmlFor="checkbox" id="lembreSe">
-                Lembre - se de mim
-              </label>
-            </div>
+
 
             {/* Redirecionar página de recuperar senha */}
-            <a href="https://www.dicionarioinformal.com.br/se+fodeu/">Esqueceu a senha ?</a>
+            <Link to={"/Carometro-universal/esqueceu-senha"}>Esqueceu a senha ?</Link>
           </div>
 
           {/* Botão que faz login */}

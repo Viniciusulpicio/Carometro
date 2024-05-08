@@ -7,7 +7,7 @@ import Cadastro from "./components/Cadastro/Cadastro.jsx";
 import Home from "./components/Home/Home.jsx";
 import Alunos from "./components/Alunos/Alunos.jsx";
 import DetalhesAluno from "./components/DetalhesAlunos/DetalhesAlunos.jsx";
-import ContinuarCadastro from "./components/ContinuarCadastro/ContinuarCadastro.jsx";
+import EsqueceuSenha from "./components/Esqueceu-Senha/EsqueceuSenha.jsx";
 import Turmas from "./components/Turmas/Turmas.jsx"
 
 //Fim das importações das páginas
@@ -24,7 +24,7 @@ function App() {
           <Route path="/Carometro-universal/turmas" element={<Turmas />} />
           <Route path="/Carometro-universal/cadastro" element={<Cadastro />} />
           <Route path="/Carometro-universal/alunos" element={<Alunos />} />
-          <Route path="/Carometro-universal/continuarCadastro" element={<ContinuarCadastro />} />
+          <Route path="/Carometro-universal/esqueceu-senha" element={<EsqueceuSenha />} />
           
 
           {/* Rotas e caminhos para as páginas de cada aluno e dos alunos da sala */}
