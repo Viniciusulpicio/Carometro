@@ -1,337 +1,347 @@
+/* Estilo para toda a página HTML */
 html {
-    background-color: #FFE4E1;
+    background-color: #FFE4E1; /* Define a cor de fundo para a página inteira */
 }
 
+/* Estilo para elementos com a classe "detalhesAluno" */
 .detalhesAluno {
-    background-color: #FFE4E1;
+    background-color: #FFE4E1; /* Define a cor de fundo para elementos com essa classe */
 }
 
+/* Estilos para a classe "infoAluno" */
 .infoAluno {
-    display: flex;
-    justify-content: space-around;
+    display: flex; /* Define um layout flexível com espaçamento uniforme entre os elementos filho */
+    justify-content: space-around; /* Alinha os elementos filho com espaço uniforme ao redor */
 }
 
+/* Estilos para a classe "anotacao" */
 .anotacao {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    display: flex; /* Define um layout flexível */
+    flex-direction: column; /* Define a direção dos elementos filho como coluna */
+    align-items: flex-start; /* Alinha os elementos filho no início do eixo transversal */
 }
 
+/* Estilos para a classe "inputAnotacao" */
 .inputAnotacao {
-    width: 77vw;
-    height: 15vh;
-    border-radius: 30px;
+    width: 77vw; /* Define a largura do elemento */
+    height: 15vh; /* Define a altura do elemento */
+    border-radius: 30px; /* Define o raio da borda */
 }
 
+/* Estilos para a classe "inputOcorrencia" */
 .inputOcorrencia {
-    display: flex;
-    flex-direction: column;
+    display: flex; /* Define um layout flexível */
+    flex-direction: column; /* Define a direção dos elementos filho como coluna */
 }
 
+/* Estilos para a classe "outros" */
 .outros {
-    display: flex;
+    display: flex; /* Define um layout flexível */
 }
 
+/* Estilos para a classe "teste2" */
 .teste2 {
-    margin-right: 105px;
+    margin-right: 105px; /* Define a margem direita do elemento */
 }
 
+/* Estilos para a classe "infoApi" */
 .infoApi {
-    display: flex;
-    flex-direction: column;
-    width: 200px;
-    align-items: flex-end;
+    display: flex; /* Define um layout flexível */
+    flex-direction: column; /* Define a direção dos elementos filho como coluna */
+    width: 200px; /* Define a largura do elemento */
+    align-items: flex-end; /* Alinha os elementos filho no final do eixo transversal */
 }
 
+/* Estilos para a classe "inputAlunos" */
 .inputAlunos {
-    border-radius: 30px;
-    width: 20vw;
-    height: 3vh;
-    margin-bottom: 3vh;
+    border-radius: 30px; /* Define o raio da borda */
+    width: 20vw; /* Define a largura do elemento */
+    height: 3vh; /* Define a altura do elemento */
+    margin-bottom: 3vh; /* Define a margem inferior do elemento */
 }
 
+/* Estilos para a classe "inputOutros" */
 .inputOutros {
-    border-radius: 30px;
-    width: 15vw;
+    border-radius: 30px; /* Define o raio da borda */
+    width: 15vw; /* Define a largura do elemento */
 }
 
+/* Estilos para a classe "linha3" */
 .linha3 {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 3vw;
+    display: flex; /* Define um layout flexível */
+    justify-content: center; /* Alinha os elementos filho no centro */
+    margin-bottom: 3vw; /* Define a margem inferior do elemento */
 }
 
+/* Estilos para a classe "quebraLinha" */
 .quebraLinha {
-    display: flex;
+    display: flex; /* Define um layout flexível */
 }
 
+/* Estilos para a classe "fotoAluno" */
 .fotoAluno {
-    width: 27vh;
-    border-radius: 20px;
+    width: 27vh; /* Define a largura do elemento */
+    border-radius: 20px; /* Define o raio da borda */
 }
 
+/* Estilos para a classe "tituloAlunos" */
 .tituloAlunos {
-    display: flex;
-    justify-content: center;
-    font-size: xx-large;
-    color: #291502;
-    margin-bottom: 10px;
-    margin-top: 1vh;
+    display: flex; /* Define um layout flexível */
+    justify-content: center; /* Alinha os elementos filho no centro */
+    font-size: xx-large; /* Define o tamanho da fonte */
+    color: #291502; /* Define a cor do texto */
+    margin-bottom: 10px; /* Define a margem inferior do elemento */
+    margin-top: 1vh; /* Define a margem superior do elemento */
 }
 
+/* Estilos para a classe "tituloOcorrencia" */
 .tituloOcorrencia {
-    display: flex;
-    font-size: x-large;
-    margin-bottom: 10px;
-    justify-content: center;
+    display: flex; /* Define um layout flexível */
+    font-size: x-large; /* Define o tamanho da fonte */
+    margin-bottom: 10px; /* Define a margem inferior do elemento */
+    justify-content: center; /* Alinha os elementos filho no centro */
 }
 
-.inputOcorrencia {
-    font-size: 17px;
-
-}
-
+/* Estilos para a classe "margin" */
 .margin {
-    margin-bottom: 12px;
+    margin-bottom: 12px; /* Define a margem inferior do elemento */
 }
 
+/* Estilos para o elemento com o ID "horario" */
 #horario {
-    border-radius: 30px;
-    width: 10vw;
-    height: 3vh;
-    margin-bottom: 4%;
+    border-radius: 30px; /* Define o raio da borda */
+    width: 10vw; /* Define a largura do elemento */
+    height: 3vh; /* Define a altura do elemento */
+    margin-bottom: 4%; /* Define a margem inferior do elemento */
 }
 
+/* Estilos para a classe "horario" */
 .horario {
-    font-size: larger;
+    font-size: larger; /* Define o tamanho da fonte */
 }
 
+/* Estilos para a classe "professor" */
 .professor {
-    font-size: larger;
-    display: flex;
-    border-radius: 30px;
-    width: 10vw;
-    height: 3vh;
-    flex-direction: row;
-    margin-bottom: 30px;
+    font-size: larger; /* Define o tamanho da fonte */
+    display: flex; /* Define um layout flexível */
+    border-radius: 30px; /* Define o raio da borda */
+    width: 10vw; /* Define a largura do elemento */
+    height: 3vh; /* Define a altura do elemento */
+    flex-direction: row; /* Define a direção dos elementos filho como linha */
+    margin-bottom: 30px; /* Define a margem inferior do elemento */
 }
 
+/* Estilos para a classe "buttonOcorrencia" */
 .buttonOcorrencia {
-    outline: none;
-    height: 40px;
-    text-align: center;
-    width: 130px;
-    border-radius: 40px;
-    background: #fff;
-    border: 2px solid black;
-    /* Substitua $green pela cor desejada */
-    color: black;
-    /* Substitua $green pela cor desejada */
-    letter-spacing: 1px;
-    text-shadow: none;
-    /* Não é necessário definir como 0, pode ser simplesmente 'none' */
-    font-size: 12px;
-    /* Corrigido para definir o tamanho da fonte */
-    font-weight: bold;
-    /* Corrigido para definir o peso da fonte */
-    cursor: pointer;
-    transition: all 0.25s ease;
-    margin-bottom: 2vw;
+    outline: none; /* Remove o contorno ao focar no elemento */
+    height: 40px; /* Define a altura do elemento */
+    text-align: center; /* Alinha o texto no centro */
+    width: 130px; /* Define a largura do elemento */
+    border-radius: 40px; /* Define o raio da borda */
+    background: #fff; /* Define o fundo do elemento */
+    border: 2px solid black; /* Define a borda do elemento */
+    color: black; /* Define a cor do texto */
+    letter-spacing: 1px; /* Define o espaçamento entre as letras */
+    text-shadow: none; /* Remove a sombra do texto */
+    font-size: 12px; /* Define o tamanho da fonte */
+    font-weight: bold; /* Define o peso da fonte */
+    cursor: pointer; /* Altera o cursor ao passar sobre o elemento */
+    transition: all 0.25s ease; /* Adiciona uma transição suave */
+    margin-bottom: 2vw; /* Define a margem inferior do elemento */
 }
 
-.buttonAnotacao:hover {
-    color: white;
-    background: #058d05;
-    /* Substitua $green pela cor desejada */
-}
-
-.buttonAnotacao {
-    outline: none;
-    height: 40px;
-    width: 130px;
-    border-radius: 40px;
-    background: #fff;
-    border: 2px solid black;
-    /* Substitua $green pela cor desejada */
-    color: black;
-    /* Substitua $green pela cor desejada */
-    letter-spacing: 1px;
-    text-shadow: none;
-    /* Não é necessário definir como 0, pode ser simplesmente 'none' */
-    font-size: 12px;
-    /* Corrigido para definir o tamanho da fonte */
-    font-weight: bold;
-    /* Corrigido para definir o peso da fonte */
-    cursor: pointer;
-    transition: all 0.25s ease;
-    margin-top: 1.2vw;
-}
-
+/* Estilos para o estado hover da classe "buttonOcorrencia" */
 .buttonOcorrencia:hover {
-    color: white;
-    background: #058d05;
-    /* Substitua $green pela cor desejada */
+    color: white; /* Define a cor do texto ao passar o mouse */
+    background: #058d05; /* Define o fundo do elemento ao passar o mouse */
 }
 
+/* Estilos para a classe "buttonAnotacao" */
+.buttonAnotacao {
+    outline: none; /* Remove o contorno ao focar no elemento */
+    height: 40px; /* Define a altura do elemento */
+    width: 130px; /* Define a largura do elemento */
+    border-radius: 40px; /* Define o raio da borda */
+    background: #fff; /* Define o fundo do elemento */
+    border: 2px solid black; /* Define a borda do elemento */
+    color: black; /* Define a cor do texto */
+    letter-spacing: 1px; /* Define o espaçamento entre as letras */
+    text-shadow: none; /* Remove a sombra do texto */
+    font-size: 12px; /* Define o tamanho da fonte */
+    font-weight: bold; /* Define o peso da fonte */
+    cursor: pointer; /* Altera o cursor ao passar sobre o elemento */
+    transition: all 0.25s ease; /* Adiciona uma transição suave */
+    margin-top: 1.2vw; /* Define a margem superior do elemento */
+}
+
+/* Estilos para o estado hover da classe "buttonAnotacao" */
+.buttonAnotacao:hover {
+    color: white; /* Define a cor do texto ao passar o mouse */
+    background: #058d05; /* Define o fundo do elemento ao passar o mouse */
+}
+
+/* Estilos para o estado ativo da classe "buttonOcorrencia" */
 .buttonOcorrencia:active {
-    letter-spacing: 2px;
+    letter-spacing: 2px; /* Define o espaçamento entre as letras quando o botão é clicado */
 }
 
+/* Estilos para a classe "radio" */
 .radio {
-    margin-right: 7px;
+    margin-right: 7px; /* Define a margem direita do elemento */
 }
 
+/* Estilos para a classe "NavbarDetalhesAlunos" */
 .NavbarDetalhesAlunos {
-    display: flex;
+    display: flex; /* Define um layout flexível */
 }
 
+/* Estilos para a classe "navbarAlunos" */
 .navbarAlunos {
-    display: flex;
-    flex-direction: column;
-    padding-left: 2vw;
+    display: flex; /* Define um layout flexível */
+    flex-direction: column; /* Define a direção dos elementos filho como coluna */
+    padding-left: 2vw; /* Define o preenchimento esquerdo do elemento */
 }
 
+/* Estilos para a classe "navbar" */
 .navbar {
-    height: 70vh;
+    height: 70vh; /* Define a altura do elemento */
 }
 
+/* Estilos para a classe "sidebar" */
 .sidebar {
-    height: 70vh;
+    height: 70vh; /* Define a altura do elemento */
 }
 
-
-/* Caso queira tirar o card adicionar apagar ou comentar tudo apartir dessa linha */
-
-
+/* Estilos para a classe "CardMaisAlunos" */
 .CardMaisAlunos {
-    display: flex;
-    background-color: #FFE4E1;
-
+    display: flex; /* Define um layout flexível */
+    background-color: #FFE4E1; /* Define a cor de fundo para elementos com essa classe */
 }
 
+/* Estilos para a classe "maisAlunos" */
 .maisAlunos {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: white;
-    width: 86%;
-    height: 77%;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    z-index: 999;
-
-    margin: 0 0;
-    padding: 0 0;
+    position: fixed; /* Define a posição do elemento como fixa */
+    top: 50%; /* Define a posição superior do elemento */
+    left: 50%; /* Define a posição esquerda do elemento */
+    transform: translate(-50%, -50%); /* Aplica uma translação para centralizar o elemento */
+    background-color: white; /* Define a cor de fundo do elemento */
+    width: 86%; /* Define a largura do elemento */
+    height: 77%; /* Define a altura do elemento */
+    padding: 20px; /* Define o preenchimento interno do elemento */
+    border-radius: 8px; /* Define o raio da borda */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Define uma sombra para o elemento */
+    z-index: 999; /* Define a ordem de empilhamento */
+    margin: 0 0; /* Define a margem do elemento */
+    padding: 0 0; /* Define o preenchimento do elemento */
 }
 
-
+/* Estilos para o estado hover da classe "buttonMaisAlunos" */
 .buttonMaisAlunos:hover {
-    color: white;
-    background-color: #AD3333;
-    /* Substitua $green pela cor desejada */
+    color: white; /* Define a cor do texto ao passar o mouse */
+    background-color: #AD3333; /* Define o fundo do elemento ao passar o mouse */
 }
 
-
+/* Estilos para a classe "buttonSair" */
 .buttonSair {
-    border: none;
-    width: 7vw;
-    height: 7vh;
-    cursor: pointer;
-    background-color: #AD3333;
-    /* Substitua $green pela cor desejada */
-
+    border: none; /* Remove a borda do elemento */
+    width: 7vw; /* Define a largura do elemento */
+    height: 7vh; /* Define a altura do elemento */
+    cursor: pointer; /* Altera o cursor ao passar sobre o elemento */
+    background-color: #AD3333; /* Define a cor de fundo do elemento */
 }
 
+/* Estilos para a classe "HeaderMaisAlunos" */
 .HeaderMaisAlunos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    height: 100px;
-    background-color: #AD3333;
-    color: white;
-    height: 15vh;
+    display: flex; /* Define um layout flexível */
+    justify-content: center; /* Alinha os elementos filho no centro */
+    align-items: center; /* Alinha os elementos filho no centro */
+    position: relative; /* Define a posição do elemento como relativa */
+    height: 100px; /* Define a altura do elemento */
+    background-color: #AD3333; /* Define a cor de fundo do elemento */
+    color: white; /* Define a cor do texto */
+    height: 15vh; /* Define a altura do elemento */
 }
 
+/* Estilos para o título dentro da classe "HeaderMaisAlunos" */
 .HeaderMaisAlunos h2 {
-    text-align: center;
-    font-family: "Roboto";
-    font-size: 2.5vw;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); 
+    text-align: center; /* Alinha o texto no centro */
+    font-family: "Roboto"; /* Define a família da fonte */
+    font-size: 2.5vw; /* Define o tamanho da fonte */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Define uma sombra para o texto */
 }
 
+/* Estilos para a classe "buttonSair" dentro da classe "HeaderMaisAlunos" */
 .buttonSair {
-    position: absolute;
-    top: 0;
-    right: 0;
-    margin-top: 0.3vw;
-    margin-right: 0.3vw;
+    position: absolute; /* Define a posição do elemento como absoluta */
+    top: 0; /* Define a posição superior do elemento */
+    right: 0; /* Define a posição direita do elemento */
+    margin-top: 0.3vw; /* Define a margem superior do elemento */
+    margin-right: 0.3vw; /* Define a margem direita do elemento */
 }
 
-strong{
-    font-size: 1.1vw;
+/* Estilos para elementos 'strong' */
+strong {
+    font-size: 1.1vw; /* Define o tamanho da fonte */
 }
 
+/* Estilos para a classe "conteudoMaisAlunos" */
 .conteudoMaisAlunos {
-    display: flex;
-    height: 62vh;
-    width: 86vw;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    background-color: #FFE4E1;
+    display: flex; /* Define um layout flexível */
+    height: 62vh; /* Define a altura do elemento */
+    width: 86vw; /* Define a largura do elemento */
+    align-items: center; /* Alinha os elementos filho no centro */
+    justify-content: center; /* Alinha os elementos filho no centro */
+    flex-wrap: wrap; /* Define o comportamento de quebra de linha dos elementos filho */
+    background-color: #FFE4E1; /* Define a cor de fundo do elemento */
 }
 
+/* Estilos para a classe "maisDetalhes" */
 .maisDetalhes {
-    display: flex;
-    flex-wrap: nowrap;
-    width: 80vw;
-    justify-content: space-around;
+    display: flex; /* Define um layout flexível */
+    flex-wrap: nowrap; /* Impede a quebra de linha dos elementos filho */
+    width: 80vw; /* Define a largura do elemento */
+    justify-content: space-around; /* Distribui os elementos filho uniformemente */
 }
 
+/* Estilos para a primeira div dentro da classe "maisDetalhes" */
 .primeiraDiv {
-    display: flex;
-    margin-left: 1vw;
-    margin-right: 0.5vw;
-    flex-direction: column;
-    justify-content: center;
+    display: flex; /* Define um layout flexível */
+    margin-left: 1vw; /* Define a margem esquerda do elemento */
+    margin-right: 0.5vw; /* Define a margem direita do elemento */
+    flex-direction: column; /* Define a direção dos elementos filho como coluna */
+    justify-content: center; /* Alinha os elementos filho no centro */
 }
 
+/* Estilos para a classe "labelQuebra" */
 .labelQuebra {
-    display: flex;
-    flex-direction: column;
+    display: flex; /* Define um layout flexível */
+    flex-direction: column; /* Define a direção dos elementos filho como coluna */
 }
 
-
+/* Estilos para a última div dentro da classe "maisDetalhes" */
 .ultimaDiv {
-    margin-right: 1vw;
+    margin-right: 1vw; /* Define a margem direita do elemento */
 }
 
+/* Estilos para a classe "cardprimeiro" */
 .cardprimeiro {
-    display: flex;
+    display: flex; /* Define um layout flexível */
 }
 
+/* Estilos para a classe "buttonMaisAlunos" */
 .buttonMaisAlunos {
-    outline: none;
-    height: 5vh;
-    width: 20vw;
-    border-radius: 40px;
-    background: #fff;
-    border: 2px solid black;
-    /* Substitua $green pela cor desejada */
-    color: black;
-    /* Substitua $green pela cor desejada */
-    letter-spacing: 1px;
-    text-shadow: none;
-    /* Não é necessário definir como 0, pode ser simplesmente 'none' */
-    font-size: 12px;
-    /* Corrigido para definir o tamanho da fonte */
-    font-weight: bold;
-    /* Corrigido para definir o peso da fonte */
-    cursor: pointer;
-    transition: all 0.25s ease;
-    margin-top: 1.2vw;
-
+    outline: none; /* Remove o contorno ao focar no elemento */
+    height: 5vh; /* Define a altura do elemento */
+    width: 20vw; /* Define a largura do elemento */
+    border-radius: 40px; /* Define o raio da borda */
+    background: #fff; /* Define o fundo do elemento */
+    border: 2px solid black; /* Define a borda do elemento */
+    color: black; /* Define a cor do texto */
+    letter-spacing: 1px; /* Define o espaçamento entre as letras */
+    text-shadow: none; /* Remove a sombra do texto */
+    font-size: 12px; /* Define o tamanho da fonte */
+    font-weight: bold; /* Define o peso da fonte */
+    cursor: pointer; /* Altera o cursor ao passar sobre o elemento */
+    transition: all 0.25s ease; /* Adiciona uma transição suave */
+    margin-top: 1.2vw; /* Define a margem superior do elemento */
 }

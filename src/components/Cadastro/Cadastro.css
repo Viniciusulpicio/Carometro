@@ -1,106 +1,119 @@
+/* Define o estilo para o container de cadastro */
 .cadastro{
-    display: flex;
+    display: flex; /* Utiliza flexbox para organização */
 }
 
-
+/* Define o estilo para o card do Senai */
 .cardSenai{
-    display: flex;
-    background: #AD3333;
-    width: 40vw;
-    height: 100vh;
+    display: flex; /* Utiliza flexbox para organização */
+    background: #AD3333; /* Cor de fundo */
+    width: 40vw; /* Largura */
+    height: 100vh; /* Altura */
 }
 
+/* Define o estilo para a seção de imagens */
 #imagens{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+    display: flex; /* Utiliza flexbox para organização */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    flex-direction: column; /* Organiza os itens em coluna */
+    align-items: center; /* Centraliza os itens verticalmente */
 }
 
+/* Define o estilo para os inputs de cadastro */
 .inputCadastro{
-    display: flex;
-    background-color: #FFE4E1;
-    width: 60vw;
+    display: flex; /* Utiliza flexbox para organização */
+    background-color: #FFE4E1; /* Cor de fundo */
+    width: 60vw; /* Largura */
 }
 
+/* Define o estilo para o logotipo do Senai */
 .senaiLogo{
-    width: 80%;
+    width: 80%; /* Largura */
 }
 
+/* Define o estilo para o logotipo da chave no cadastro */
 .chaveLogoCadastro{
-    width: 50%;
-    -moz-transform: scaleX(-1);
-    -o-transform: scaleX(-1);
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
+    width: 50%; /* Largura */
+    -moz-transform: scaleX(-1); /* Inverte horizontalmente */
+    -o-transform: scaleX(-1); /* Inverte horizontalmente */
+    -webkit-transform: scaleX(-1); /* Inverte horizontalmente */
+    transform: scaleX(-1); /* Inverte horizontalmente */
 }
 
+/* Define o estilo para o container geral de cadastro */
 .geralCadastro{
-    height: 100vh; 
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center; 
-    align-content: center;
-    width: 100%;
+    height: 100vh; /* Altura */
+    display: flex; /* Utiliza flexbox para organização */
+    flex-wrap: wrap; /* Permite que os elementos sejam quebrados em várias linhas */
+    flex-direction: column; /* Organiza os itens em coluna */
+    justify-content: center; /* Centraliza os itens verticalmente */
+    align-content: center; /* Centraliza os itens horizontalmente */
+    width: 100%; /* Largura */
 }
 
+/* Define o estilo para o título */
 .titulo{
-    display: flex;
-    font: bolder;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-    font-size: 4vw !important; 
-    margin-bottom: 5vw;
-    font: bold;
+    display: flex; /* Utiliza flexbox para organização */
+    font: bolder; /* Peso da fonte */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    margin-bottom: 20px; /* Espaçamento inferior */
+    font-size: 4vw !important; /* Tamanho da fonte */
+    margin-bottom: 5vw; /* Espaçamento inferior */
+    font: bold; /* Peso da fonte */
 }   
 
+/* Define o estilo para as caixas */
 .caixas{
-    display: flex;
-    border-radius: 50px;
-    border: white;
-    width: 80%;
-    height: 75%;
-    font-size: larger;
-    align-items: center;
-    display: inline-block;
-    padding-left: 2%;
+    display: flex; /* Utiliza flexbox para organização */
+    border-radius: 50px; /* Borda arredondada */
+    border: white; /* Cor da borda */
+    width: 80%; /* Largura */
+    height: 75%; /* Altura */
+    font-size: larger; /* Tamanho da fonte */
+    align-items: center; /* Centraliza os itens verticalmente */
+    display: inline-block; /* Exibe como bloco */
+    padding-left: 2%; /* Espaçamento interno à esquerda */
 }
 
+/* Define o estilo para os títulos das caixas */
 .titulosCaixas{
-    margin-top: 3vh;
-    font-size: x-large;
+    margin-top: 3vh; /* Espaçamento superior */
+    font-size: x-large; /* Tamanho da fonte */
 }
 
+/* Define o estilo para os botões */
 .button{
-    display: flex;
-    align-items: center;
-    height: 5%;
-    border-radius: 50px;
-    background-color: #FF3E3E;
-    margin-top: 5vh;
-    margin-bottom: 1vh;font-size: x-large;
-    color: white;
-    justify-content: center;
+    display: flex; /* Utiliza flexbox para organização */
+    align-items: center; /* Centraliza os itens verticalmente */
+    height: 5%; /* Altura */
+    border-radius: 50px; /* Borda arredondada */
+    background-color: #FF3E3E; /* Cor de fundo */
+    margin-top: 5vh; /* Espaçamento superior */
+    margin-bottom: 1vh; /* Espaçamento inferior */
+    font-size: x-large; /* Tamanho da fonte */
+    color: white; /* Cor do texto */
+    justify-content: center; /* Centraliza os itens horizontalmente */
     
 }
 
+/* Define o estilo para os inputs do cadastro */
 .cadastro-inputs{
-    display: flex;
-    align-items: center;
+    display: flex; /* Utiliza flexbox para organização */
+    align-items: center; /* Centraliza os itens verticalmente */
 }
 
+/* Define o estilo para a quebra de linha */
 .quebrar-linha,
 .quebrar-linha2{
-    width: 26vw;
-    margin-left: 4vw;
-    height: 40vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    width: 26vw; /* Largura */
+    margin-left: 4vw; /* Margem à esquerda */
+    height: 40vh; /* Altura */
+    display: flex; /* Utiliza flexbox para organização */
+    flex-direction: column; /* Organiza os itens em coluna */
+    justify-content: space-between; /* Distribui espaço uniformemente */
 }
 
+/* Define o estilo para as labels do cadastro */
 .labelCadastro{
-    margin: 1vw;
+    margin: 1vw; /* Margem */
 }

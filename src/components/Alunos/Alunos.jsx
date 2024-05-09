@@ -9,8 +9,6 @@ import Aluno1 from "../../img/aluno.png"; // Importa a imagem do aluno
 const Alunos = () => {
 
   // Simulação dos dados dos alunos - atualmente estático, mas poderia vir de um banco de dados
-    // ESSA PORRA VAI VIR DO BANCO DE DADOS //
-
   const alunos = Array(16).fill().map((_, index) => ({
     login: {
       id: (index + 1).toString() // Gera IDs únicos para cada aluno (de 1 a 16)

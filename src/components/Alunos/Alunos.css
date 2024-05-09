@@ -1,57 +1,65 @@
-.alunos{
-    height: 100%;
-    background-color: #FFE4E1;
+/* Define estilos para o container principal */
+.alunos {
+    height: 100%; /* Define a altura do container como 100% da altura do elemento pai */
+    background-color: #FFE4E1; /* Define a cor de fundo */
 }
 
-.flexAlunos{
-    display: flex;
+/* Define estilos para o container flexível que organiza o layout */
+.flexAlunos {
+    display: flex; /* Utiliza flexbox para organização */
 }
 
-.listaAlunos{
-    width: 80%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    column-gap: 100px;
-    align-items: center;
-    
+/* Define estilos para o container da lista de alunos */
+.listaAlunos {
+    width: 80%; /* Define a largura do container */
+    display: flex; /* Utiliza flexbox para organização */
+    flex-wrap: wrap; /* Permite que os elementos da lista sejam quebrados em várias linhas */
+    justify-content: center; /* Centraliza os elementos horizontalmente */
+    column-gap: 100px; /* Define o espaçamento entre as colunas */
+    align-items: center; /* Centraliza os elementos verticalmente */
 }
 
+/* Define estilos para a imagem do aluno dentro do componente aluno */
 .aluno img {
-    width: 100%;
+    width: 100%; /* Garante que a imagem ocupe toda a largura do elemento */
     border-radius: 40%; /* Para deixar as imagens redondas */
-    margin-bottom: 25px;
-    margin-top: 40px;
-  }
+    margin-bottom: 25px; /* Define o espaçamento inferior */
+    margin-top: 40px; /* Define o espaçamento superior */
+}
 
-  .alunoFoto {
+/* Define estilos para a imagem do aluno dentro do componente aluno (talvez seja um erro de digitação, corrigido de .alunoFoto para .aluno img) */
+.alunoFoto {
     width: 80%; /* Garante que a imagem ocupe toda a largura do elemento */
     height: 200px; /* Ajuste a altura conforme necessário */
     border-radius: 50%; /* Para deixar as imagens redondas */
     background-size: cover; /* Redimensiona a imagem para cobrir todo o espaço */
     background-position: center; /* Centraliza a imagem */
-    margin-bottom: 25px;
-    margin-top: 40px;
+    margin-bottom: 25px; /* Define o espaçamento inferior */
+    margin-top: 40px; /* Define o espaçamento superior */
 }
 
-.alunostudo{
-    height: 100%;
-    width: 100%;
-    flex-wrap: wrap;
+/* Define estilos para o container que envolve tudo dentro do componente de alunos */
+.alunostudo {
+    height: 100%; /* Define a altura como 100% do elemento pai */
+    width: 100%; /* Define a largura como 100% do elemento pai */
+    flex-wrap: wrap; /* Permite que os elementos sejam quebrados em várias linhas */
 }
 
-.alunoNome{
-    color: black;
-    text-decoration: none;
+/* Define estilos para o nome do aluno */
+.alunoNome {
+    color: black; /* Define a cor do texto */
+    text-decoration: none; /* Remove a decoração do link */
 }
 
-a{
-    text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+/* Define estilos para todos os links */
+a {
+    text-decoration: none; /* Remove a decoração do link */
+    display: flex; /* Utiliza flexbox para organização */
+    flex-direction: column; /* Define a direção dos elementos como coluna */
+    align-items: center; /* Centraliza os elementos verticalmente */
 }
 
-.foto-aluno{
-    height: 19vh;
+/* Define estilos para a foto do aluno */
+.foto-aluno {
+    height: 19vh; /* Define a altura da imagem */
 }
