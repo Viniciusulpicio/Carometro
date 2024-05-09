@@ -1,23 +1,62 @@
-# Carômetro Escolar em React
+# Carômetro Universal
 
-Este projeto foi desenvolvido como parte de um estudo sobre React e tem como objetivo criar um carômetro específico para uma escola. O Carômetro Escolar é uma aplicação que permite avaliar e monitorar diferentes aspectos relacionados à vida escolar.
+O Carômetro Universal é um sistema de gerenciamento de alunos desenvolvido com React. Este projeto consiste em uma aplicação web para controle de turmas, alunos e ocorrências.
+
+## Instalação
+
+Antes de começar, certifique-se de ter o Node.js e o npm instalados em sua máquina. Para instalar as dependências do projeto, siga estes passos:
+
+1. Clone o repositório:
+   ```sh
+   git clone https://github.com/seu-usuario/Carometro-universal.git
+2. Navegue até o diretório do projeto:
+   ```sh
+   cd Carometro-universal
+3. Instale as dependências:
+   ```sh
+   npm install
+4. Inicie o servidor de desenvolvimento:
+   ```sh
+   npm run dev
+5. Acesse a aplicação em seu navegador através do endereço http://localhost:3000.
 
 ## Componentes
-### Alunos
 
-O componente `Alunos` é responsável por exibir uma lista de alunos, obtidos de uma API usando o `axios`. Cada aluno é representado por um link que direciona para a página de detalhes do aluno, que parece ser `/carometro/aluno/:id`. Este componente também importa os componentes `Header` e `Navbar`.
+### Turmas
+
+O componente Turmas exibe as turmas disponíveis e suas respectivas salas. Cada sala está vinculada a uma rota que redireciona para a página de detalhes dos alunos.
+
+### Navbar
+
+O componente Navbar é responsável pela barra lateral de navegação, que contém botões para retornar à página inicial e para acessar a lista de turmas.
+
+### Home
+
+O componente Home é a página inicial da aplicação, exibindo informações sobre o sistema.
+
+### Header
+
+O componente Header exibe o cabeçalho com o logo do Senai e o nome da instituição.
+
+### Login
+
+O componente Login é responsável pelo formulário de login, permitindo que os usuários acessem o sistema.
+
+### RecuperarSenha
+
+O componente RecuperarSenha permite que os usuários solicitem a recuperação de senha inserindo seu e-mail.
 
 ### DetalhesAluno
 
-O componente `DetalhesAluno` é responsável por exibir os detalhes de um aluno específico, obtidos da mesma API usando o `axios`. Ele também permite ao usuário registrar motivos de ocorrência, fazer anotações e interagir com campos de entrada.
+O componente DetalhesAluno exibe informações detalhadas sobre um aluno específico, incluindo suas informações pessoais e a possibilidade de registrar ocorrências e observações.
 
-## Como Executar
+### Cadastro
 
-1. Certifique-se de ter o Node.js instalado em seu sistema.
-2. Clone este repositório para o seu ambiente local.
-3. No diretório do projeto, execute o comando `npm install` para instalar as dependências.
-4. Após a instalação das dependências, execute o comando `npm run dev` para iniciar o servidor de desenvolvimento.
-5. Abra seu navegador e acesse `http://localhost:5173` para acessar o Carômetro Escolar.
+O componente Cadastro exibe o formulário de cadastro para novos usuários.
+
+### Alunos
+
+O componente Alunos exibe uma lista de alunos disponíveis, cada um vinculado à sua própria página de detalhes.
 
 ## Tecnologias Utilizadas
 
@@ -26,4 +65,6 @@ O componente `DetalhesAluno` é responsável por exibir os detalhes de um aluno 
 - React Router
 - CSS
 
+## Colaboradores
 
+Este projeto foi desenvolvido em parceria com [Jhuan Medeiros](https://github.com/Jhuan-Medeiros/). Agradeço pelo trabalho conjunto e colaboração!
