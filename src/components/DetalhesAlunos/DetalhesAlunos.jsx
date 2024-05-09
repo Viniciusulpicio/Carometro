@@ -6,7 +6,7 @@ import Navbar from "../NavBar/Navbar";
 import { useState } from "react";
 
 // Importe a imagem do aluno
-import Aluno1 from "../../img/aluno 1.png";
+import Aluno1 from "../../img/aluno.png";
 import Sair from "../../img/cancelar.png";
 
 const DetalhesAluno = () => {
@@ -21,7 +21,7 @@ const DetalhesAluno = () => {
       nome: "Guilherme",
       sobrenome: "Devito",
     },
-    genero: "Minha fêmea",
+    genero: "Garoto",
     idade: {
       age: 12,
     },
