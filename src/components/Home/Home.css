@@ -4,6 +4,7 @@
 
 .conteudoHome{
     display: flex;
+    height: 78vh;
     width: 87%;
     justify-content: flex-start;
     align-items: center;
@@ -11,8 +12,7 @@
     background-repeat: no-repeat; 
     background-size: cover;
     background-position: center;
-    background-size: 90vw 100vh /* largura de 200 pixels, altura de 100 pixels */
-
+    background-size: 90vw 110vh 
 }
 
 .tituloHome{

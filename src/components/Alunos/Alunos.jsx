@@ -4,7 +4,7 @@ import "../Alunos/Alunos.css"; // Importa estilos CSS para este componente
 import Header from '../Header/Header'; // Importa o componente Header
 import Navbar from '../NavBar/Navbar'; // Importa o componente Navbar
 
-import Aluno1 from "../../img/aluno 1.png"; // Importa a imagem do aluno
+import Aluno1 from "../../img/aluno.png"; // Importa a imagem do aluno
 
 const Alunos = () => {
 
@@ -36,12 +36,12 @@ const Alunos = () => {
               {/* Define um link para a página individual do aluno */}
               <Link to={`/Carometro-universal/aluno/${aluno.login.id}`}>
                 {/* Renderiza a foto do aluno */}
-                <img src={aluno.foto.foto} alt="Aluno" />
+                <img src={aluno.foto.foto} alt="Aluno" className='foto-aluno'/>
                 {/* Renderiza o nome completo do aluno */}
                 <p className='alunoNome'>{`${aluno.name.nome} ${aluno.name.sobrenome}`}</p>
               </Link>
             </div>
-          ))}
+          ))} 
         </div>
       </div>
     </div>

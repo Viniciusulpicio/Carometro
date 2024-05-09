@@ -1,0 +1,105 @@
+.Esqueceu-senha{
+    display: flex;
+}
+
+
+.cardSenai{
+    display: flex;
+    background: #AD3333;
+    width: 50vw;
+    height: 100vh;
+}
+
+#imagens{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputEsqueceu-senha{
+    display: flex;
+    background-color: #FFE4E1;
+    width: 60vw;
+}
+
+.senaiLogo{
+    width: 80%;
+}
+
+.chaveLogoEsqueceu-senha{
+    width: 50%;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.geralEsqueceu-senha{
+    height: 100vh; 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center; 
+    align-content: center;
+    width: 100%;
+}
+
+.titulo{
+    display: flex;
+    font: bolder;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 2.3vw !important; 
+    margin-bottom: 5vw;
+}   
+
+.button{
+    display: flex;
+    align-items: center;
+    height: 5%;
+    border-radius: 50px;
+    background-color: #FF3E3E;
+    margin-top: 5vh;
+    margin-bottom: 1vh;font-size: x-large;
+    color: white;
+    justify-content: center;
+    
+}
+
+.button-recuperar{
+    display: flex;
+    align-items: center;
+    height: 5%;
+    width: 40vw;
+    border-radius: 50px;
+    background-color: #FF3E3E;
+    margin-top: 5vh;
+    margin-bottom: 1vh;font-size: x-large;
+    color: white;
+    justify-content: center;
+}
+
+.input-recuperar{
+    border-radius: 50px;
+    border: white;
+    width: 40vw;
+    height: 7vh;
+}
+
+.div-recuperar{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+}
+
+.voltar{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.instrucoes{
+    display: flex;
+}
